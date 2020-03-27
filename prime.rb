@@ -8,7 +8,7 @@ def prime?(num)
     end
     results.length > 0 ? prime = false : prime = true
   end
-  puts results.length
+  puts "#{results.length} results"
   prime
 end
 
