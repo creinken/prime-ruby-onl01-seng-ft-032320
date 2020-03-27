@@ -6,6 +6,6 @@ def prime?(num)
         results.push test_num
       end
     end
-    results.length > 2 ? false : true
+    results.length > 2 ? return false : return true
   end
 end
