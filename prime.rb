@@ -9,6 +9,7 @@ def prime?(num)
     results.length == 0 ? prime = true : prime = false
   end
   puts "#{results.length} results"
+  puts prime
   prime
 end
 
