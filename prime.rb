@@ -6,7 +6,7 @@ def prime?(num)
       puts num
       results.push test_num
     end
-    results.length > 0 ? prime = false : prime = true
+    results.length == 0 ? prime = true : prime = false
   end
   puts "#{results.length} results"
   prime
