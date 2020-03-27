@@ -3,9 +3,12 @@ def prime?(num)
   prime = false
   (-num..num).step(1).to_a.each do |test_num|
     if test_num != 0 && num % test_num == 0 && !([1,num].include?(test_num))
+      puts num
       results.push test_num
     end
     results.length > 0 ? prime = false : prime = true
   end
   prime
 end
+
+prime?(gets)
